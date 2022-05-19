@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor{
+    background-color:   white;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100px 830px;    
+}
+
+.ladoa{
+background-color: black;
+color: white;
+font-family: 'Poppins', sans-serif;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+  gap: 10px;
+  margin-left: 1833px;
+  
+}
+img.ca{
+    margin-top: -25px;
+}
+img.me{
+    margin-top: -25px;
+}
+img.pu{
+    margin-top: -25px;
+}
+img.usu{
+    margin-top: -25px;
+}
+
+.ladob{
+    background-color: black;
+    opacity: 0.6;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.cuadro1{
+    background-color: orange;
+    display: grid;
+    grid-template-rows:  10% 10% 10% 10% 10% 10%;
+}
+.herra{    
+    border-bottom: 1px solid white;  
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.cuadro2{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 28px 100px 150px 250px 250px 28px;
+
+}
+.box{    
+    margin: 10px;   
+
+}
+.caja1{    
+    grid-column: 1/ span 4;
+    font-family: 'Roboto', sans-serif;
+}
+.caja2{
+    border: 4px solid black;
+    grid-column: 1/ span 4;
+}
+
+.caja3{
+    border: 4px solid black;
+    grid-column: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.caja4{
+    border: 4px solid black;
+    grid-column: 2;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    justify-items: center;
+    align-items: center;
+}
+.caja5{
+    border: 4px solid black;
+    grid-column: 3;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.caja6{
+    border: 4px solid black;
+    grid-column: 4;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.caja7{
+    border: 4px solid black;
+    grid-column: 1/ span 2;
+}
+.caja8{
+    border: 4px solid black;
+    grid-column: 3/ span 2;
+}
+.caja9{
+    border: 4px solid black;
+    grid-column: 1/ span 3;
+}
+.caja10{
+    border: 4px solid black;
+    grid-column: 4;
+}
+.caja11{
+    grid-column: 1 / span 4;    ;
+    font-family: 'Roboto', sans-serif;
+}
+
+i{
+    margin-left: 5px;
+    font-size: 30px;
+}

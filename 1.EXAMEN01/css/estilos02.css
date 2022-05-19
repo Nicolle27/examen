@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .contenedor {
+    width: 70%;
+    background: #f5f5f5;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 30%  70%;
+   
+  }
+
+  .inputNombre{
+    width: 70%;
+    background: #fdfdfd;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 3px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+  }
+
+  .ladob{
+   margin-right: 100 px;
+  }
+
+  .guardar{
+    width: 80%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    margin: 16px 0;
+    font-size: 16px;
+
+  }
+ 
+  .th1 {
+    width: 80px;
+    height: 50px;
+    background-color: aqua;
+  }
+  
+  .th2{
+    width: 200px;
+    background-color: aqua;
+  }
+  
+  .th3 {
+    width: 100px;
+    background-color: aqua;
+  }
+  .th4 {
+    width: 110px;
+    background-color: aqua;
+  }
+  .th5 {
+    width: 150px;
+    background-color: aqua;
+  }
+  .th6 {
+    width: 100px;
+    background-color: aqua;
+  }
+  

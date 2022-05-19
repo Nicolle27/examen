@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos02.css">
+    <title>Examen</title>
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <div class="Contenedor1">
+            <div class="ladob">
+                <h2 class="tituloPrincipal">ʀᴇɢɪꜱᴛʀᴏ ᴇꜱᴛᴜᴅɪᴀɴᴛᴇ</h2>
+                <input hidden id="txtId" type="text" class="form-control">
+
+                <div class="caja">
+                    <label class="nombre">Nombre :</label> <br>
+                    <input id="txtNombre" type="text" class="inputNombre" aria-describedby="emailHelp">
+                </div>
+
+                <div class="RadioSexo" id="Rsex">
+                    <label for="des1">Sexo :</label><br>
+                    <div class="circulos">
+                        Femenino: <input id="radioFemenino" type="radio" name="sex" />
+                    Masculino: <input id="radioMasculino" type="radio" name="sex" />
+                    </div>
+                    
+                </div><br>
+                <div class="D1">
+                    <label for="des1">Ciclo :</label><br>
+                    <select name="select" class="operacion" id="cic">
+                        <option value="0" disabled selected>Seleccionar Ciclo</option>
+                        <option value="1">I</option>
+                        <option value="2">II</option>
+                        <option value="3">III</option>
+                        <option value="4">IV</option>
+                        <option value="5">V</option>
+                        <option value="6">VI</option>
+                        <option value="7">VII</option>
+                        <option value="8">VIII</option>
+                        <option value="9">IX</option>
+                        <option value="10">X</option>
+                    </select><br><br>
+                </div>
+                <div class="D2">
+                    <label for="des1">Escuela Profesional :</label><br>
+                    <select name="select" class="operacion" id="escu">
+                        <option value="0" disabled selected>Seleccionar Escuela</option>
+                        <option value="Ing. sistemas">Ingenieria de sistemas</option>
+                        <option value="Ing. Ambiental">Ingenieria ambiental</option>
+                        <option value="Ing. Alimentos">Ingenieria de industrias alimentarias</option>
+                        <option value="Ing. Civil"> Ingenieria civil</option>
+                        <option value="Arquitectura">Arquitectura</option>
+                    </select><br>
+                </div>
+
+                <button type="button" onclick="guardarCambios()" class="guardar">
+                    Guardar
+                </button>
+
+            </div>
+
+        </div>
+        <div class="Contenedor2">
+            <div class="derecha">
+                <table id="tblPost" class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="th1">Item</th>
+                            <th scope="col" class="th2">Nombre</th>
+                            <th scope="col" class="th3">Sexo</th>
+                            <th scope="col" class="th4">Ciclo</th>
+                            <th scope="col" class="th5">Escuela Profesional</th>
+                            <th scope="col" class="th6">Acción</th>
+                        </tr>
+                    </thead>
+                    <tbody id="bodyPost">
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/java.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</body>
+
+</html>
